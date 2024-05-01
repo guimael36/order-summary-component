@@ -1,0 +1,149 @@
+html {
+    background-image: url(../../images/pattern-background-desktop.svg);
+    background-size: 100% auto no-repeat;
+    background-color: var(--Pale-blue);
+    height: 100vh;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 35rem;
+    height: 52.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7.5rem;
+}
+
+.container img {
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    margin-top: -12rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info h1 {
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-top: 4rem;
+}
+
+.info p {
+    margin-top: 2rem;
+    width: 27rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: var(--Desaturated-blue);
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.plano {
+    width: 29rem;
+    height: 8rem;
+    background-color: var(--Very-pale-blue);
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    line-height: 2rem;
+}
+
+.plano img {
+    width: 4rem;
+    height: 4rem;
+    margin: 0 15rem 0 1rem;
+    text-align: center;
+}
+
+.tipo-plano p {
+    margin-left: -13rem;
+    margin-bottom: 0.1rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.tipo-plano .valor {
+    margin-top: -.01rem;
+    font-weight: 500;
+}
+
+.plano a {
+    margin-left: 1rem;
+    color: var(--Bright-blue);
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.plano a:hover {
+    text-decoration: none;
+    opacity: 70%;
+}
+
+.tipo-plano .plano-anual {
+    font-weight: 900;
+}
+
+.tipo-plano .valor {
+    color: var(--Desaturated-blue)
+}
+
+.pagamento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.pagamento button {
+    width: 29rem;
+    height: 4rem;
+    padding: .5rem;
+    border-radius: 1rem;
+    border-style: none;
+    background-color: var(--Bright-blue);
+    box-shadow: #d7d7d7 0rem 1.5rem 1.5rem;
+}
+
+.pagamento button:hover {
+    opacity: 70%;
+}
+
+.pagamento .proceed {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.pagamento .cancel {
+    margin-top: 4rem;
+    color: var(--Desaturated-blue);
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+
+.pagamento .cancel:hover {
+    color: black;
+    opacity: 80%;
+}
